@@ -1,0 +1,87 @@
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #f0f8ff; 
+
+    margin-bottom: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+body {
+    padding-top: 60px; 
+    background-color: #eaf6ff;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-logo, .nav-menu a {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+.card-user, .card-users {
+    padding: 40px;
+    margin: 30px;
+    width: 300px;
+    background-color: white;
+    text-align: left;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card-user:hover, .card-users:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn-detail {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin-top: 15px;
+    width: auto; 
+    background-color: #4169e1; 
+    color: white;
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-detail:hover {
+    background-color: #3153b8; 
+    box-shadow: 0 4px 15px rgba(65, 105, 225, 0.4); 
+    transform: translateY(-2px); 
+}
+
+.btn-detail:active {
+    background-color: #2b459c;
+    transform: translateY(0); 
+    box-shadow: 0 2px 5px rgba(65, 105, 225, 0.2);
+}
