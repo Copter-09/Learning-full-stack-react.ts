@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      
+
 
       <BrowserRouter>
         <nav className='navbar'>
